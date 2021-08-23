@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+//Vista De inicio principal
+Route::view('/','principal.principal');
