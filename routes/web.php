@@ -41,3 +41,6 @@ Route::view('panelsolicitudes','docentes.paneldesolicitudes.panelsolicituds');
 Route::view('solicitudrecurso','docentes.solicitudes.solicitudrecurso');
 Route::view('solicitudsala','docentes.solicitudes.solicitudsala');
 Route::view('calendario','docentes.calendario.calendario');
+
+//Apis Vistas
+Route::apiResource('apiSalas','apiSalasController');
