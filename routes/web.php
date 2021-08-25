@@ -18,7 +18,7 @@ Route::get('/', function () {
 // Vista administrador
 
 // vista de solicitud realizadas
-Route::view('solicitud','solicitudes.solicitudsa');
+Route::view('solicitudes','administrador.solicitudes.solicitudsa');
 
 // Vista docentes
 
